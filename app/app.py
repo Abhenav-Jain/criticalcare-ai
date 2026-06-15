@@ -111,6 +111,6 @@ else:
     st.subheader("📊 Model Insights")
     col1, col2 = st.columns(2)
     with col1:
-        st.image("models/shap_summary.png", caption="Feature Importance")
+        st.info("📊 Run locally to see SHAP Summary Plot")
     with col2:
-        st.image("models/shap_beeswarm.png", caption="SHAP Beeswarm")
+        st.info("🐝 Run locally to see SHAP Beeswarm Plot")
